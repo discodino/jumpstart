@@ -1,0 +1,192 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+/*navigation bar*/
+.navbar {
+  position: fixed;
+}
+
+.navbar ul li {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+  padding: 1rem;
+}
+
+.navbar li.active {
+  color: #399bd1;
+}
+
+
+/*jumbotron*/
+.jumbotron-bike {
+  background-image: url("../assets/images/jumbotron-bike.jpg");
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton';
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+  text-align: center;
+  padding-top: 11.85rem;
+}
+
+.jumbotron p {
+  text-align: center;
+}
+
+.jumbotron-beer {
+  background-image: url("../assets/images/jumbotron-beer.jpg");
+  margin-bottom: 0;
+}
+
+.jumbotron-duffel {
+  background-image: url("../assets/images/jumbotron-duffel.jpg");
+  margin-bottom: 0;
+}
+
+.jumbotron-flowers {
+  background-image: url("../assets/images/jumbotron-flowers.jpg");
+  margin-bottom: 0;
+}
+
+
+#jumbobox {
+  max-width: 51.3rem;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 2.8rem;
+}
+
+.btn-lg {
+  width: 11.4rem;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  padding: 1.3rem auto;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5):
+  border-width: 0px;
+  border-style: initial;
+  margin-bottom: 11.85rem;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+@media only screen and (max-width: 765px) {
+  .jumbotron-bike h1 {
+    font-family: 'Monoton';
+    font-size: 5.7rem;
+    color: white;
+  }
+
+}
+/*featured project*/
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0.7;
+  transition: transform 0.5s,
+    opacity 0.5s;
+}
+
+.image-container img:hover {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+#featureimg {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 20px;
+}
+
+#projectheading {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  padding: 20px 0px 20px 2rem;
+  margin: 0;
+}
+
+#featurebox {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.featureinfo h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#product-categories {
+  color: #399bd1;
+}
+
+.featureinfo p, li {
+  line-height: 1.4rem;
+  color: rgba(0,0,0,0.7);
+}
+
+/*Projects*/
+
+#projectheading2 {
+  margin-left: 2rem;
+  color: #399bd1;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.projectimg {
+  margin-left: 0rem;
+}
+
+.project h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#projectsbox {
+  padding-bottom: 5.85rem;
+}
+
+/*footer*/
+.help {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1.4rem;
+}
+
+.help p {
+  max-width: 42rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1.4rem;
+}
